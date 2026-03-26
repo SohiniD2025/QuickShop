@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_BASE = 'https://fakestoreapi.com';
+// Vite env vars must start with `VITE_` to be exposed to the frontend.
+const API_BASE =
+  import.meta.env.VITE_API_BASE || 'https://fakestoreapi.com';
 
 export const fetchProducts = async () => {
   const response = await axios.get(`${API_BASE}/products`);

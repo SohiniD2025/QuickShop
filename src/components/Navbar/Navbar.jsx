@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="container nav-container">
         <Link to="/" className="logo">QuickShop</Link>
         <div className="nav-links">
-          <Link to="/products">Products</Link>
+          <Link to="/products">Home</Link>
           <Link to="/wishlist" className="nav-icon">
             <FaHeart />
           </Link>
