@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useCart } from '../../context/CartContext';
-import { useWishlist } from '../../context/WishlistContext';
+import { useCart } from '../context/CartContext';
+import { useWishlist } from '../context/WishlistContext';
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();

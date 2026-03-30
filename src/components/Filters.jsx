@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { fetchCategories } from '../../services/api';
+import { fetchCategories } from '../services/api';
 
 const Filters = ({
   selectedCategory,
