@@ -13,7 +13,7 @@ import Wishlist from './pages/Wishlist';
 import Checkout from './pages/Checkout';
 
 // Components
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/Navbar';
 
 import './App.css';  // Global styles
 

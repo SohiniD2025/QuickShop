@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react';
 import { useProducts } from '../hooks/useProducts';
 import { useDebounce } from '../hooks/useDebounce';
-import ProductGrid from '../components/ProductGrid/ProductGrid';
-import SearchBar from '../components/SearchBar/SearchBar';
-import Filters from '../components/Filters/Filters';
+import ProductGrid from '../components/ProductGrid';
+import SearchBar from '../components/SearchBar';
+import Filters from '../components/Filters';
 
 const Products = () => {
   const { products, loading, error } = useProducts();
